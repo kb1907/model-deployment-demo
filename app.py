@@ -3,7 +3,6 @@ import jsonify
 import requests
 import pickle
 import numpy as np
-import sklearn
 app = Flask(__name__)
 model = pickle.load(open('catboost_model-2.pkl', 'rb'))
 
